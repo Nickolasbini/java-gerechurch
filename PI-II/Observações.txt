@@ -1,0 +1,3 @@
+Na apresentação tirar os requisitos funcionais e não funcionas, apenas deixar as regras de negócio.
+
+Fazer um txt. para a relação manyToMany entre a Pessoa e Instituicao

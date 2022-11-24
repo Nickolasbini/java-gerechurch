@@ -1,0 +1,52 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>540</x><y>90</y><w>210</w><h>200</h></coordinates><panel_attributes>Pessoa
+--
+-id: Integer
+-nome: String
+-telefone: String
+-email: String
+-senha: String
+-instituicaoId: Integer
+-temPrivilegios: Boolean
+-administradorMestre: Boolean
+-profissao: String
+-salario: Float
+- status: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>320</y><w>210</w><h>190</h></coordinates><panel_attributes>Instituicao
+--
+-id: Integer
+-nome: String
+-rua: String
+-numero: Integer
+-bairro: String
+-cidade: String
+-pais: String
+-representateId: Integer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>850</x><y>390</y><w>140</w><h>80</h></coordinates><panel_attributes>TipoPagamento
+--
+-id: Integer
+-nome: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>370</y><w>190</w><h>150</h></coordinates><panel_attributes>Recebimentos
+--
+-id: Integer
+- tipoPagamentoId: Integer
+-valor: Float
+-dataPagamento: dateTime
+-dizimistaId: Integer
+-instituicaoId: Integer
+-funcionarioId: Integer</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>410</y><w>120</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=N
+m2=1
+</panel_attributes><additional_attributes>100;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>410</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=N
+m2=1
+</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>280</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=N
+m2= 1
+</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>150</y><w>140</w><h>80</h></coordinates><panel_attributes>Pessoa_Instituicao
+--
+-id: Integer
+-pessoaId: String
+-instituicaoId: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>220</y><w>40</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=N
+</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>170</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=N
+</panel_attributes><additional_attributes>110;20;10;20</additional_attributes></element></diagram>
