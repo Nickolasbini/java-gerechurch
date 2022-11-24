@@ -1,0 +1,8 @@
+1,Victoria Pereira Ibarra.,36420751,vic@hotmail.com,12345,1,1,1,null,null,2,0;
+3,Andre Rodolfo,36367777,rod@hotmail.com,default123,1,0,0,Vendedor,500.00,1,0;
+4,Big Boss,null,masterAdmin@hotmail.com,12345,1,1,null,null,null,3,0;
+7,Andrei,414141,andrei@andrei.com,andrei123,1,0,0,Marceneiro,2000.00,1,0;
+9,Worker 123,36420751,worker@hotmail.com,12345,1,0,0,null,null,2,0;
+10,Marlene Da Luz,419999999,marlene.da.luz@hotmail.com,default123,1,0,0,Vendedora,1300.00,1,1;
+11,ggga,gagaga,ga@hotmail.com,default123,1,0,0,agagag,null,1,0;
+12,yyeyueue,ueue,ueue,default123,1,0,0,ueuueu,null,1,0;
